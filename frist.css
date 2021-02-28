@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    font-size: 30px;
+}
+nav{
+    background-color: slategray;
+    height: 50px;
+    line-height: 4px;
+    margin-bottom: 5px;
+}
+nav li{
+    list-style: none;
+    padding: 23px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+nav li:hover{
+    background: rgb(36, 26, 26);
+}
+nav > ul > li{
+    float: right;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    background-color:teal;
+}
+nav > ul > li:hover > ul {
+    display: block;
+
+}
+/* main site start */
+.top-baner {
+    margin-bottom: 50px;
+    height: 500px;
+}
+h2 {
+    color: tomato;
+}
+h3 {
+    color: rgba(33, 12, 223, 0.986);
+}
+
+.half-width {
+    width: 42%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.top-baner2 {
+    height: 500px;
+}
+.click {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(255, 102, 0), rgb(223, 16, 16));
+    border-radius: 2px;
+    font-size: 20px;
+}
+.sec-three {
+    height: 500px;
+    background-color: whitesmoke;
+}
+h4 {
+    text-align: center;
+}
+span {
+    color: teal;
+}
+.latest-site{
+    width: 30%;
+    float: left;
+    padding-left: 3%;
+}
+.latest-site img{
+    width: 100%;
+} 
+.last-sec{
+    height: 600px;
+}
+.inquiry-aria{
+    border-radius: 30px;
+    position: relative;
+    background-image: url(images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 80%;
+    margin: 125px;
+
+    
+}
+h5 {
+    color: white;
+    font-size: 50px;
+    padding: 10%;
+    
+}
+.chat-aria{
+    border-radius: 15px;;
+    position: absolute;
+    right: 90px;
+    top: 35%;
+    width: 160px;
+    height: 90px;
+    background-color: tomato;
+
+}
+.chat{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+.footer-aria{
+    text-align: center;
+}
+.font{
+    text-align: center;
+    padding-bottom: 10px;
+}
+i{
+    padding-left: 5px;
+}
